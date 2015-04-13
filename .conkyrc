@@ -1,0 +1,22 @@
+background        no
+out_to_console 	  yes
+out_to_x	  no
+update_interval	  5
+total_run_times	  0
+short_units	  yes
+pad_percents	  3
+no_buffers yes
+
+override_utf8_locale yes
+
+TEXT
+,[{"full_text": " "},
+  {"full_text": " $cpu%","icon":"/usr/share/icons/stlarch_icons/cpu1.xbm","color": "\#99D7FF"},
+  {"full_text": " $memeasyfree", "icon":"/usr/share/icons/stlarch_icons/mem1.xbm", "color":"\#F3D194"},
+
+  {"full_text": " ${loadavg 1} ","color": "\#909090","icon": "/usr/share/icons/stlarch_icons/clock1.xbm"},
+  {"full_text": " ${weather http://weather.noaa.gov/pub/data/observations/metar/stations/ EGNX temperature}° 
+  {"full_text": " ${time %a %d %b} "},
+  {"full_text": " ${time %H:%M} ","icon": "/usr/share/icons/stlarch_icons/clock1.xbm"},
+  {"full_text": " "}
+]
