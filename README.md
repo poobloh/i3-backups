@@ -1,4 +1,4 @@
-# i3-trash
+# i3 backup and links
 
 links: 
 * http://dotshare.it/
